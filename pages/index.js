@@ -6,15 +6,15 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
+        <title>THANA Business</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
+        <Header title="Welcome to THANA Business" />
+        <div>
+          <iframe width="100%" style="height: 100vh" src="https://THANABUSINESS.NETLIFY.APP" frameborder="0"></iframe>
+        </div>
       </main>
 
       <Footer />
